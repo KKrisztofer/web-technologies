@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <title>Egyedi telefontokok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kerekes Krisztofer">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/icons.css">
+		<script type="text/javascript" src="script/jquery-3.6.3.min.js"></script>
+		<script type="text/javascript" src="script/script.js"></script>
+		
+		<style>
+			.rendeles{
+				display: none;
+				text-align: center;
+			}
+		</style>
+    </head>
+    <body>
+        <header>
+            <div id="header-top">
+                <div id="social-platforms">
+                    <ul>
+                        <li><a class="icon-instagram"></a></li>
+                        <li><a class="icon-facebook"></a></li>
+                        <li><a class="icon-pinterest"></a></li>
+                    </ul>
+                </div>
+				<div class="site-title">
+					<span>egyeditelefontok.hu</span>
+				</div>
+                <div id="user-menu">
+                    <ul>
+                        <li><a class="icon-user"></a></li>
+                        <li><a class="icon-shopping-basket" href="kosar.html"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="kezdolap.html">Kezdőlap</a></li>
+                    <li><a href="telefontok.html">Telefontok</a></li>
+                    <li><a href="polo.html">Póló</a></li>
+                    <li><a href="ajandektargy.html">Ajándéktárgy</a></li>
+                </ul>
+                <div id="searchbar">
+                    <input type="text" placeholder="Írd be a keresendő szót">
+                    <span class="icon-search"></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+			<div class="main-div">
+				<div class="termekek">
+					<div class="termek">
+						<span>Telefontok 01</span>
+						<img src="images/tok01.jpg" alt="Telefontok" title="Telefontok">
+					</div>
+					<div class="termek">
+						<span>Telefontok 02</span>
+						<img src="images/tok02.jpg" alt="Telefontok" title="Telefontok">
+					</div>
+					<div class="termek">
+						<span>Telefontok 03</span>
+						<img src="images/tok03.jpg" alt="Telefontok" title="Telefontok">
+					</div>
+					<div class="termek">
+						<span>Telefontok 04</span>
+						<img src="images/tok04.jpg" alt="Telefontok" title="Telefontok">
+					</div>
+				</div>
+				<div class="rendeles">
+					<p id="rendeles_szoveg"></p>
+				</div>
+				<div class="form-div">
+					<form action="">
+						<label for="telefon">Telefon típusa:</label>
+						<select id="telefon" name="telefon">
+							<option value="Iphone">Iphone</option>
+							<option value="Samsung">Samsung</option>
+							<option value="Xiaomi">Xiaomi</option>
+						</select>
+						
+						<label for="tok">Tok:</label>
+						<select id="tok" name="tok">
+							<option value="tok01">01</option>
+							<option value="tok02">02</option>
+							<option value="tok03">03</option>
+							<option value="tok04">04</option>
+						</select>
+						
+						<label for="color">Szín:</label>
+						<input type="color" id="color" value="#fff">
+						  
+						<input id="kosar_btn_tok" type="button" value="Kosárba">
+					</form>
+				</div>
+			</div>
+        </main>
+        <footer>
+			<ul>
+				<li><a href="">Általános szerződési feltételek</a></li>
+				<li><a href="">Vásárlási tájékoztató</a></li>
+				<li><a href="">Szállítás</a></li>
+				<li><a href="">Adatkezelési tájékoztató</a></li>
+				<li><a href="">Fizetés</a></li>
+				<li><a href="">Kapcsolat</a></li>
+			</ul>
+        </footer>
+    </body>
+</html>

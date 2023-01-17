@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <title>Egyedi telefontokok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kerekes Krisztofer">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/icons.css">
+		<script type="text/javascript" src="script/jquery-3.6.3.min.js"></script>
+		<script type="text/javascript" src="script/script.js"></script>
+		
+		<style>
+			.rendeles{
+				display: none;
+				text-align: center;
+			}
+			h2{
+				text-align: center;
+				margin-bottom: 10px;
+			}
+		</style>
+    </head>
+    <body>
+        <header>
+            <div id="header-top">
+                <div id="social-platforms">
+                    <ul>
+                        <li><a class="icon-instagram"></a></li>
+                        <li><a class="icon-facebook"></a></li>
+                        <li><a class="icon-pinterest"></a></li>
+                    </ul>
+                </div>
+				<div class="site-title">
+					<span>egyeditelefontok.hu</span>
+				</div>
+                <div id="user-menu">
+                    <ul>
+                        <li><a class="icon-user"></a></li>
+                        <li><a class="icon-shopping-basket" href="kosar.html"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="kezdolap.html">Kezdőlap</a></li>
+                    <li><a href="telefontok.html">Telefontok</a></li>
+                    <li><a href="polo.html">Póló</a></li>
+                    <li><a href="ajandektargy.html">Ajándéktárgy</a></li>
+                </ul>
+                <div id="searchbar">
+                    <input type="text" placeholder="Írd be a keresendő szót">
+                    <span class="icon-search"></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+			<div class="main-div">
+				<div class="termekek">
+					<div class="termek">
+						<span>Póló 01</span>
+						<img src="images/polo01.jpg" alt="Póló" title="Póló">
+					</div>
+					<div class="termek">
+						<span>Póló 02</span>
+						<img src="images/polo02.jpg" alt="Póló" title="Póló">
+					</div>
+					<div class="termek">
+						<span>Póló 03</span>
+						<img src="images/polo03.jpg" alt="Póló" title="Póló">
+					</div>
+					<div class="termek">
+						<span>Póló 04</span>
+						<img src="images/polo04.jpg" alt="Póló" title="Póló">
+					</div>
+				</div>
+				<h2>Mérettáblázat</h2>
+				<div class="merettablazat">
+					<img src="images/polomeret.png">
+					<table>
+						<tr>
+							<td></td>
+							<td>A (cm)</td>
+							<td>B (cm)</td>
+						</tr>
+						<tr>
+							<td>S</td>
+							<td>47</td>
+							<td>69</td>
+						</tr>
+						<tr>
+							<td>M</td>
+							<td>51</td>
+							<td>70</td>
+						</tr>
+						<tr>
+							<td>L</td>
+							<td>55</td>
+							<td>73</td>
+						</tr>
+						<tr>
+							<td>XL</td>
+							<td>59</td>
+							<td>75</td>
+						</tr>
+					</table>
+				</div>
+				<div class="rendeles">
+					<p id="rendeles_szoveg"></p>
+				</div>
+				<div class="form-div">
+					<form action="">
+						<label for="meret">Póló mérete:</label>
+						<select id="meret" name="meret">
+							<option value="S">S</option>
+							<option value="M">M</option>
+							<option value="L">L</option>
+							<option value="XL">XL</option>
+						</select>
+						
+						<label for="polo">Póló:</label>
+						<select id="polo" name="polo">
+							<option value="polo01">01</option>
+							<option value="polo02">02</option>
+							<option value="polo03">03</option>
+							<option value="polo04">04</option>
+						</select>
+						
+						<label for="color">Szín:</label>
+						<input type="color" id="color" value="#fff">
+						  
+						<input id="kosar_btn_polo" type="button" value="Kosárba">
+					</form>
+				</div>
+			</div>
+        </main>
+        <footer>
+			<ul>
+				<li><a href="">Általános szerződési feltételek</a></li>
+				<li><a href="">Vásárlási tájékoztató</a></li>
+				<li><a href="">Szállítás</a></li>
+				<li><a href="">Adatkezelési tájékoztató</a></li>
+				<li><a href="">Fizetés</a></li>
+				<li><a href="">Kapcsolat</a></li>
+			</ul>
+        </footer>
+    </body>
+</html>
